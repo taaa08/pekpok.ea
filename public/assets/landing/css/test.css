@@ -1,0 +1,27 @@
+#drink-nav {
+    position: absolute;
+    width: 100%;
+    bottom: 64px; }
+    #drink-nav span {
+      display: inline-block;
+      cursor: pointer;
+      padding: 7px 20px;
+      border-radius: 30px;
+      background: rgba(0, 32, 74, 0.1);
+      color: #00204a;
+      text-align: center;
+      -webkit-transition: .3s all ease;
+      -o-transition: .3s all ease;
+      transition: .3s all ease; }
+      #drink-nav span:hover, #drink-nav span.active {
+        background: #00204a;
+        color: #fff !important; }
+    #drink-nav .prev, #drink-nav .next {
+      position: absolute;
+      cursor: pointer; }
+      #drink-nav .prev:hover, #drink-nav .next:hover {
+        color: #00204a; }
+    #drink-nav .prev {
+      left: 0; }
+    #drink-nav .next {
+      right: 0; }
