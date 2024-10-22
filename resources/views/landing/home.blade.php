@@ -5,21 +5,21 @@
     <div class="hero-slide">
       <div
         class="img overlay"
-        style="background-image: url('assets/landing/images/hero_bg_3.jpg')"
+        style="background-image: url('assets/landing/images/Kitchen.jpg')"
       ></div>
     </div>
-    
+
     <div class="container">
       <div class="row justify-content-center align-items-center">
         <div class="col-lg-9 text-center">
           <h1 class="heading" data-aos="fade-up">
             Selamat Datang di PekPok Coffee!
           </h1>
-    
+
           <h3 class="heading" data-aos="fade-up">
             Semoga Harimu Menyenangkan</u>
           </h3>
-          
+
         </div>
       </div>
     </div>
@@ -50,7 +50,7 @@
             <div class="col-12">
               <div class="property-slider-wrap">
                 <div class="promo-slider">
-  
+
                 @forelse ($promo as $item)
                 <div class="property-item">
                   <a href="property-single.html" class="img">
@@ -106,10 +106,10 @@
                 @empty
 
                 @endforelse
-  
+
                   <!-- .item -->
                 </div>
-  
+
                 <div
                   id="promo-nav"
                   class="controls"
@@ -216,9 +216,9 @@
 
                 @endforelse
 
-                
 
-                
+
+
               </div>
 
               <div
@@ -325,7 +325,7 @@
                 @empty
 
                 @endforelse
-                
+
                 <!-- .item -->
               </div>
 
@@ -385,20 +385,20 @@
                 <h4 class="mb-2">Open Hours:</h4>
                 <p>
                   Setiap Hari:<br />
-                  16:00 - 24:00
+                  15:00 - 24:00
                 </p>
               </div>
 
               <div class="email mt-4">
                 <i class="icon-envelope"></i>
                 <h4 class="mb-2">Email:</h4>
-                <p>info@Untree.co</p>
+                <p>pekpokcoffee@gmail.com</p>
               </div>
 
               <div class="phone mt-4">
                 <i class="icon-phone"></i>
                 <h4 class="mb-2">Call:</h4>
-                <p>+1 1234 55488 55</p>
+                <p>+62 899 946 4214</p>
               </div>
             </div>
           </div>
@@ -431,7 +431,7 @@
         </div>
         <div class="testimonial-slider-wrap">
           <div class="testimonial-slider">
-          
+
             @forelse ($testimoni as $item)
             <div class="item">
               <div class="testimonial">
@@ -453,7 +453,7 @@
             @empty
 
             @endforelse
-            
+
         </div>
     </div>
 </div>

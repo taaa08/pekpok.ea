@@ -3,7 +3,7 @@
 @section('hero')
 <div
       class="hero page-inner overlay"
-      style="background-image: url('assets/landing/images/hero_bg_1.jpg')"
+      style="background-image: url('assets/landing/images/13.jpg')"
     >
       <div class="container">
         <div class="row justify-content-center align-items-center">
@@ -49,7 +49,7 @@
             @endforeach
           </ul>
           @endif
-          
+
           @if(session()->has('success'))
           <div class="alert alert-success" role="alert">{{ session()->get('success') }}</div>
           @endif

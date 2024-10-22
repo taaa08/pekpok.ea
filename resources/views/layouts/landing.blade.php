@@ -60,7 +60,7 @@
               <li class="{{ Route::is('landing.about') ? 'active' : '' }}"><a href="{{ route('landing.about') }}">About</a></li>
               <li class="{{ Route::is('landing.contact') ? 'active' : '' }}"><a href="{{ route('landing.contact') }}">Contact Us</a></li>
             </ul>
-            
+
             <button
               class="burger light me-auto float-end mt-1 site-menu-toggle js-menu-toggle d-inline-block d-lg-none mt-3"
               data-toggle="collapse"
@@ -79,21 +79,21 @@
     @yield('hero')
 
     <!-- CONTENT -->
-    
+
     @yield('content')
 
     <div class="position-fixed bottom-0 end-0 p-3 back-to-top" style="z-index: 100;">
-      <a href="#" class="btn pt-0 pb-0" style="background-color: #ee2737; color: #000000">
+      <a href="https://gofood.link/u/5mmBz2" class="btn pt-0 pb-0" style="background-color: #ee2737; color: #000000">
         <img src="{{ url('assets/img/pekpok/Gofood.png') }}" alt="" width="100">
-      </a>  
+      </a>
     </div>
 
     <div class="position-fixed end-0 p-3 back-to-top" style="z-index: 100;bottom: 80px">
-      <a href="#" class="btn" style="background-color: #25D366; color: #000000">
+      <a href="https://wa.me/08999424214" class="btn" style="background-color: #25D366; color: #000000">
         <img src="{{ url('assets/img/pekpok/whatsapp.png') }}" alt="" width="100">
-      </a>  
+      </a>
     </div>
-    
+
 
     <!-- FOOTER -->
 
@@ -132,7 +132,7 @@
 
 
     @stack('scripts')
-    
+
     <script>
     $(document).ready(function() {
       $(window).scroll(function () {

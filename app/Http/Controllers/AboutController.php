@@ -41,7 +41,7 @@ class AboutController extends Controller
     {
         $request->validate([
             'keterangan' => ['required', 'string', 'max:1000'],
-            'gambar' => ['required', 'mimes:jpeg,jpg,png', 'dimensions:max_width=1080,max_height=1080,min_width=500,min_height=500']
+            'gambar' => ['required', 'mimes:jpeg,jpg,png']
         ]);
 
 
@@ -89,7 +89,7 @@ class AboutController extends Controller
         ]);
 
         $img = $request->file('gambar');
-        
+
         if ($img) {
             $imgName = $img->getClientOriginalName();
             $img->storeAs('public/images/about', $imgName);

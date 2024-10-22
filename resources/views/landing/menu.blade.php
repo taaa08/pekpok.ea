@@ -3,7 +3,7 @@
 @section('hero')
     <div
       class="hero page-inner overlay"
-      style="background-image: url('assets/landing/images/hero_bg_1.jpg')"
+      style="background-image: url('assets/landing/images/14.jpg')"
     >
       <div class="container">
         <div class="row justify-content-center align-items-center">
@@ -101,7 +101,7 @@
                 @empty
 
                 @endforelse
-                
+
               </div>
 
               <div
@@ -190,7 +190,7 @@
                 @endif
 
                 <span class="city d-block">{{ $item->nama }}</span>
-                
+
                 <div class="price mb-2"><span>{{ $item->harga }}</span></div>
                 <div>
                   <span class="d-block mb-2" style="color: #878787;"
@@ -228,7 +228,7 @@
           @empty
 
           @endforelse
-          
+
 
         </div>
         <div class="row align-items-center py-5">
@@ -253,7 +253,7 @@
       $('.form-control').select2({
         placeholder: "Pilih kategori disini", //placeholder
         tags: true,
-        tokenSeparators: ['/',',',';'," "] 
+        tokenSeparators: ['/',',',';'," "]
       });
     });
 </script>

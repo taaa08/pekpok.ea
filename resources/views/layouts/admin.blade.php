@@ -111,7 +111,7 @@
                 <div data-i18n="Basic">Testimonial</div>
               </a>
             </li>
-            
+
             <li class="menu-item {{ Route::is('admin.customercare') ? 'active' : '' }}">
               <a href="{{ route('admin.customercare') }}" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-info-square"></i>
@@ -137,9 +137,9 @@
             </div>
 
             <div class="navbar-nav-right d-flex align-items-center" id="navbar-collapse">
-              
+
               <ul class="navbar-nav flex-row align-items-center ms-auto">
-                
+
                 <!-- User -->
                 <li class="nav-item navbar-dropdown dropdown-user dropdown">
                   <a class="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);" data-bs-toggle="dropdown">
@@ -153,7 +153,7 @@
                         <div class="d-flex">
                           <div class="flex-shrink-0 me-3">
                             <div class="avatar avatar-online">
-                              <img src="{{ asset('assets/img/avatars/1.png') }}" alt class="w-px-40 h-auto rounded-circle" />
+                              <img src="{{ asset('assets/img/avatars/17.png') }}" alt class="w-px-40 h-auto rounded-circle" />
                             </div>
                           </div>
                           <div class="flex-grow-1">
@@ -207,10 +207,10 @@
                   <script>
                     document.write(new Date().getFullYear());
                   </script>
-                  All Rights Reserved. 
+                  All Rights Reserved.
                   <a href="https://themeselection.com" target="_blank" class="footer-link fw-bolder"><i>PekPok Coffe </i>❤️</a>
                 </div>
-                
+
               </div>
             </footer>
             <!-- / Footer -->
@@ -254,7 +254,7 @@
         $('.js-search').select2({
           placeholder: "Pilih kategori disini", //placeholder
           tags: true,
-          tokenSeparators: ['/',',',';'," "] 
+          tokenSeparators: ['/',',',';'," "]
         });
       });
     </script>
